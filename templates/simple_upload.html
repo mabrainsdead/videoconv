@@ -1,0 +1,24 @@
+ <form name="my_form" method="post" enctype="multipart/form-data" onsubmit="return validateForm();">
+    {% csrf_token %}
+    <input type="file" name="myfile"><BR><bR>
+    <input type="checkbox" name="anonimize" value="yes">Excluir header de identificação<BR><BR>
+    <button type=csubmit>Upload</button>
+    
+  </form>
+
+  {% if video_name %}
+    <p>Download do vídeo: <a href="{{MEDIA_URL}}{{ video_name }}" download>{{ video_name }}</a></p>
+    <p>Download do thumbnail: <a href="{{MEDIA_URL}}{{ thumbnail_name }}" download>{{ thumbnail_name }}</a></p>
+    
+  {% endif %}
+  
+  <script>
+   function validateForm() {
+   var x = document.forms["my_form"]["myfile"].value;
+   if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+   
+  </script>

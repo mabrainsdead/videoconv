@@ -1,0 +1,1607 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 21:48:31
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 21:51:10
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[23/Feb/2019 21:55:57] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/flame':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 736 kb/s
+    Stream #0:0: Video: indeo4 (IV41 / 0x31345649), yuv410p, 256x240, 731 kb/s, 35 fps, 35 tbr, 35 tbn, 35 tbc
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+[libx264 @ 0x217d460] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x18b1c00] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x18b1c00] moov atom not found
+media/flame.mp4: Invalid data found when processing input
+[libx264 @ 0x217d460] profile High, level 1.3
+[libx264 @ 0x217d460] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/flame.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv420p, 256x208, q=-1--1, 35 fps, 17920 tbn, 35 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (indeo4 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=  110 fps=0.0 q=-1.0 Lsize=      90kB time=00:00:03.08 bitrate= 237.6kbits/s    
+video:87kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.342747%
+[libx264 @ 0x217d460] frame I:1     Avg QP:23.28  size:  1205
+[libx264 @ 0x217d460] frame P:52    Avg QP:23.81  size:  1211
+[libx264 @ 0x217d460] frame B:57    Avg QP:27.20  size:   433
+[libx264 @ 0x217d460] consecutive B-frames: 13.6% 41.8% 30.0% 14.5%
+[libx264 @ 0x217d460] mb I  I16..4:  6.2% 93.8%  0.0%
+[libx264 @ 0x217d460] mb P  I16..4:  3.2% 40.8%  1.4%  P16..4: 13.3%  7.3%  5.9%  0.0%  0.0%    skip:28.1%
+[libx264 @ 0x217d460] mb B  I16..4:  1.1%  6.4%  0.3%  B16..8: 23.5%  5.9%  1.3%  direct: 2.6%  skip:58.9%  L0:47.8% L1:39.8% BI:12.4%
+[libx264 @ 0x217d460] 8x8 transform intra:89.0% inter:73.1%
+[libx264 @ 0x217d460] coded y,uvDC,uvAC intra: 67.2% 0.0% 0.0% inter: 12.3% 0.0% 0.0%
+[libx264 @ 0x217d460] i16 v,h,dc,p: 33% 41% 24%  2%
+[libx264 @ 0x217d460] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 29% 47%  2%  1%  1%  1%  1%  2%
+[libx264 @ 0x217d460] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 22% 21%  4%  6%  6%  5%  6%  5%
+[libx264 @ 0x217d460] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x217d460] Weighted P-Frames: Y:15.4% UV:0.0%
+[libx264 @ 0x217d460] ref P L0: 52.6% 13.1% 20.1% 11.7%  2.5%
+[libx264 @ 0x217d460] ref B L0: 72.9% 21.4%  5.8%
+[libx264 @ 0x217d460] ref B L1: 94.8%  5.2%
+[libx264 @ 0x217d460] kb/s:226.20
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 21:55:38
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[23/Feb/2019 21:58:58] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/flame.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 233 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 256x208, 227 kb/s, 35 fps, 35 tbr, 17920 tbn, 70 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x10d3800] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/flame.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj420p(pc), 256x208, q=2-31, 200 kb/s, 35 fps, 35 tbn, 35 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=1.9 Lsize=N/A time=00:00:00.02 bitrate=N/A    
+video:3kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[23/Feb/2019 21:59:44] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+media/flame.mp4: No such file or directory
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 21:58:36
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[23/Feb/2019 22:00:29] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/flame':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 736 kb/s
+    Stream #0:0: Video: indeo4 (IV41 / 0x31345649), yuv410p, 256x240, 731 kb/s, 35 fps, 35 tbr, 35 tbn, 35 tbc
+[libx264 @ 0xc1c460] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x1a1bc00] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x1a1bc00] moov atom not found
+media/flame.mp4: Invalid data found when processing input
+[libx264 @ 0xc1c460] profile High, level 1.3
+[libx264 @ 0xc1c460] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/flame.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv420p, 256x208, q=-1--1, 35 fps, 17920 tbn, 35 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (indeo4 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=  110 fps=0.0 q=-1.0 Lsize=      90kB time=00:00:03.08 bitrate= 237.6kbits/s    
+video:87kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.342747%
+[libx264 @ 0xc1c460] frame I:1     Avg QP:23.28  size:  1205
+[libx264 @ 0xc1c460] frame P:52    Avg QP:23.81  size:  1211
+[libx264 @ 0xc1c460] frame B:57    Avg QP:27.20  size:   433
+[libx264 @ 0xc1c460] consecutive B-frames: 13.6% 41.8% 30.0% 14.5%
+[libx264 @ 0xc1c460] mb I  I16..4:  6.2% 93.8%  0.0%
+[libx264 @ 0xc1c460] mb P  I16..4:  3.2% 40.8%  1.4%  P16..4: 13.3%  7.3%  5.9%  0.0%  0.0%    skip:28.1%
+[libx264 @ 0xc1c460] mb B  I16..4:  1.1%  6.4%  0.3%  B16..8: 23.5%  5.9%  1.3%  direct: 2.6%  skip:58.9%  L0:47.8% L1:39.8% BI:12.4%
+[libx264 @ 0xc1c460] 8x8 transform intra:89.0% inter:73.1%
+[libx264 @ 0xc1c460] coded y,uvDC,uvAC intra: 67.2% 0.0% 0.0% inter: 12.3% 0.0% 0.0%
+[libx264 @ 0xc1c460] i16 v,h,dc,p: 33% 41% 24%  2%
+[libx264 @ 0xc1c460] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 29% 47%  2%  1%  1%  1%  1%  2%
+[libx264 @ 0xc1c460] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 22% 21%  4%  6%  6%  5%  6%  5%
+[libx264 @ 0xc1c460] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0xc1c460] Weighted P-Frames: Y:15.4% UV:0.0%
+[libx264 @ 0xc1c460] ref P L0: 52.6% 13.1% 20.1% 11.7%  2.5%
+[libx264 @ 0xc1c460] ref B L0: 72.9% 21.4%  5.8%
+[libx264 @ 0xc1c460] ref B L1: 94.8%  5.2%
+[libx264 @ 0xc1c460] kb/s:226.20
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 22:00:08
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 59, in simple_upload
+    sconvert_avi_to_mp4_anonimous("media/"+filename, "media/"+filename)
+NameError: name 'sconvert_avi_to_mp4_anonimous' is not defined
+[23/Feb/2019 22:05:05] "POST /simple_upload/ HTTP/1.1" 500 69812
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 22:04:47
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 37, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[23/Feb/2019 22:05:55] "POST /simple_upload/ HTTP/1.1" 500 77181
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 59, in simple_upload
+    convert_avi_to_mp4_anonimous("media/"+filename, "media/"+filename)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 32, in convert_avi_to_mp4_anonimous
+    subprocess.Popen("ffmpeg -i '{input}' -filter:v 'crop=in_w:in_h/1.15:0:55' -c:a copy '{output}'.mp4".format(input=file_path, output = output_name))
+  File "/usr/lib64/python3.6/subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib64/python3.6/subprocess.py", line 1344, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: "ffmpeg -i 'media/flame' -filter:v 'crop=in_w:in_h/1.15:0:55' -c:a copy 'media/flame'.mp4": "ffmpeg -i 'media/flame' -filter:v 'crop=in_w:in_h/1.15:0:55' -c:a copy 'media/flame'.mp4"
+[23/Feb/2019 22:06:10] "POST /simple_upload/ HTTP/1.1" 500 93645
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 22:05:35
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[23/Feb/2019 22:08:22] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/flame':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 736 kb/s
+    Stream #0:0: Video: indeo4 (IV41 / 0x31345649), yuv410p, 256x240, 731 kb/s, 35 fps, 35 tbr, 35 tbn, 35 tbc
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x8d9c00] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x8d9c00] moov atom not found
+media/flame.mp4: Invalid data found when processing input
+[libx264 @ 0x1c69460] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x1c69460] profile High, level 1.3
+[libx264 @ 0x1c69460] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/flame.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv420p, 256x208, q=-1--1, 35 fps, 17920 tbn, 35 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (indeo4 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=  110 fps=0.0 q=-1.0 Lsize=      90kB time=00:00:03.08 bitrate= 237.6kbits/s    
+video:87kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.342747%
+[libx264 @ 0x1c69460] frame I:1     Avg QP:23.28  size:  1205
+[libx264 @ 0x1c69460] frame P:52    Avg QP:23.81  size:  1211
+[libx264 @ 0x1c69460] frame B:57    Avg QP:27.20  size:   433
+[libx264 @ 0x1c69460] consecutive B-frames: 13.6% 41.8% 30.0% 14.5%
+[libx264 @ 0x1c69460] mb I  I16..4:  6.2% 93.8%  0.0%
+[libx264 @ 0x1c69460] mb P  I16..4:  3.2% 40.8%  1.4%  P16..4: 13.3%  7.3%  5.9%  0.0%  0.0%    skip:28.1%
+[libx264 @ 0x1c69460] mb B  I16..4:  1.1%  6.4%  0.3%  B16..8: 23.5%  5.9%  1.3%  direct: 2.6%  skip:58.9%  L0:47.8% L1:39.8% BI:12.4%
+[libx264 @ 0x1c69460] 8x8 transform intra:89.0% inter:73.1%
+[libx264 @ 0x1c69460] coded y,uvDC,uvAC intra: 67.2% 0.0% 0.0% inter: 12.3% 0.0% 0.0%
+[libx264 @ 0x1c69460] i16 v,h,dc,p: 33% 41% 24%  2%
+[libx264 @ 0x1c69460] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 29% 47%  2%  1%  1%  1%  1%  2%
+[libx264 @ 0x1c69460] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 22% 21%  4%  6%  6%  5%  6%  5%
+[libx264 @ 0x1c69460] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x1c69460] Weighted P-Frames: Y:15.4% UV:0.0%
+[libx264 @ 0x1c69460] ref P L0: 52.6% 13.1% 20.1% 11.7%  2.5%
+[libx264 @ 0x1c69460] ref B L0: 72.9% 21.4%  5.8%
+[libx264 @ 0x1c69460] ref B L1: 94.8%  5.2%
+[libx264 @ 0x1c69460] kb/s:226.20
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 22:07:41
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/flame':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 736 kb/s
+    Stream #0:0: Video: indeo4 (IV41 / 0x31345649), yuv410p, 256x240, 731 kb/s, 35 fps, 35 tbr, 35 tbn, 35 tbc
+[libx264 @ 0x1e1c460] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x1e1c460] profile High, level 1.3
+[libx264 @ 0x1e1c460] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/flame.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv420p, 256x208, q=-1--1, 35 fps, 17920 tbn, 35 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (indeo4 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=  110 fps=0.0 q=-1.0 Lsize=      90kB time=00:00:03.08 bitrate= 237.6kbits/s    
+video:87kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.342747%
+[libx264 @ 0x1e1c460] frame I:1     Avg QP:23.28  size:  1205
+[libx264 @ 0x1e1c460] frame P:52    Avg QP:23.81  size:  1211
+[libx264 @ 0x1e1c460] frame B:57    Avg QP:27.20  size:   433
+[libx264 @ 0x1e1c460] consecutive B-frames: 13.6% 41.8% 30.0% 14.5%
+[libx264 @ 0x1e1c460] mb I  I16..4:  6.2% 93.8%  0.0%
+[libx264 @ 0x1e1c460] mb P  I16..4:  3.2% 40.8%  1.4%  P16..4: 13.3%  7.3%  5.9%  0.0%  0.0%    skip:28.1%
+[libx264 @ 0x1e1c460] mb B  I16..4:  1.1%  6.4%  0.3%  B16..8: 23.5%  5.9%  1.3%  direct: 2.6%  skip:58.9%  L0:47.8% L1:39.8% BI:12.4%
+[libx264 @ 0x1e1c460] 8x8 transform intra:89.0% inter:73.1%
+[libx264 @ 0x1e1c460] coded y,uvDC,uvAC intra: 67.2% 0.0% 0.0% inter: 12.3% 0.0% 0.0%
+[libx264 @ 0x1e1c460] i16 v,h,dc,p: 33% 41% 24%  2%
+[libx264 @ 0x1e1c460] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 29% 47%  2%  1%  1%  1%  1%  2%
+[libx264 @ 0x1e1c460] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 22% 21%  4%  6%  6%  5%  6%  5%
+[libx264 @ 0x1e1c460] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x1e1c460] Weighted P-Frames: Y:15.4% UV:0.0%
+[libx264 @ 0x1e1c460] ref P L0: 52.6% 13.1% 20.1% 11.7%  2.5%
+[libx264 @ 0x1e1c460] ref B L0: 72.9% 21.4%  5.8%
+[libx264 @ 0x1e1c460] ref B L1: 94.8%  5.2%
+[libx264 @ 0x1e1c460] kb/s:226.20
+[23/Feb/2019 22:10:18] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/flame.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 233 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 256x208, 227 kb/s, 35 fps, 35 tbr, 17920 tbn, 70 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x1c75800] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/flame.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj420p(pc), 256x208, q=2-31, 200 kb/s, 35 fps, 35 tbn, 35 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=1.9 Lsize=N/A time=00:00:00.02 bitrate=N/A    
+video:3kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[23/Feb/2019 22:12:34] "GET /media/flame.jpg HTTP/1.1" 200 3554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/movie':
+  Duration: 00:00:00.82, start: 0.000000, bitrate: 122502 kb/s
+    Stream #0:0: Video: rawvideo, bgr24, 636x472, 131899 kb/s, 17 fps, 17 tbr, 17 tbn, 17 tbc
+No pixel format specified, yuv444p for H.264 encoding chosen.
+Use -pix_fmt yuv420p for compatibility with outdated media players.
+[libx264 @ 0x1db80a0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x1db80a0] profile High 4:4:4 Predictive, level 2.2, 4:4:4 8-bit
+[libx264 @ 0x1db80a0] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=17 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/movie.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv444p, 636x410, q=-1--1, 17 fps, 17408 tbn, 17 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[swscaler @ 0x1dcd760] Warning: data is not aligned! This can lead to a speedloss
+frame=   14 fps=0.0 q=-1.0 Lsize=     147kB time=00:00:00.70 bitrate=1702.6kbits/s    
+video:146kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.673502%
+[libx264 @ 0x1db80a0] frame I:1     Avg QP:23.67  size: 17155
+[libx264 @ 0x1db80a0] frame P:7     Avg QP:26.05  size: 10346
+[libx264 @ 0x1db80a0] frame B:6     Avg QP:27.54  size:  9826
+[libx264 @ 0x1db80a0] consecutive B-frames: 14.3% 85.7%  0.0%  0.0%
+[libx264 @ 0x1db80a0] mb I  I16..4:  2.2% 81.2% 16.6%
+[libx264 @ 0x1db80a0] mb P  I16..4:  0.2% 20.8%  4.5%  P16..4:  7.3%  5.8%  2.4%  0.0%  0.0%    skip:59.0%
+[libx264 @ 0x1db80a0] mb B  I16..4:  0.0% 11.9%  4.0%  B16..8: 11.3%  6.2%  4.4%  direct: 7.1%  skip:55.1%  L0:44.6% L1:39.4% BI:16.0%
+[libx264 @ 0x1db80a0] 8x8 transform intra:79.8% inter:69.2%
+[libx264 @ 0x1db80a0] coded y,u,v intra: 82.4% 9.5% 5.4% inter: 20.7% 1.1% 0.9%
+[libx264 @ 0x1db80a0] i16 v,h,dc,p: 60% 20%  9% 11%
+[libx264 @ 0x1db80a0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 12% 19%  6%  8%  4% 17%  5% 13%
+[libx264 @ 0x1db80a0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 11% 19% 11%  5% 10%  4% 24%  4% 11%
+[libx264 @ 0x1db80a0] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x1db80a0] ref P L0: 58.0%  9.4% 21.1% 11.5%
+[libx264 @ 0x1db80a0] ref B L0: 80.1% 19.9%
+[libx264 @ 0x1db80a0] kb/s:1442.88
+[23/Feb/2019 22:15:05] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/movie.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:00.82, start: 0.000000, bitrate: 1458 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 636x410, 1449 kb/s, 17 fps, 17 tbr, 17408 tbn, 34 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x24259c0] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/movie.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj444p(pc), 636x410, q=2-31, 200 kb/s, 17 fps, 17 tbn, 17 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=5.0 Lsize=N/A time=00:00:00.05 bitrate=N/A    
+video:29kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[23/Feb/2019 22:31:20] "GET /media/movie.jpg HTTP/1.1" 200 29575
+[23/Feb/2019 22:31:27] "GET /media/movie.mp4 HTTP/1.1" 200 150225
+[23/Feb/2019 22:31:28] "GET /media/movie.mp4 HTTP/1.1" 200 150225
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 22:09:56
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 23:01:25
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[24/Feb/2019 01:04:15] "GET /simple_upload/ HTTP/1.1" 200 381
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 37, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[24/Feb/2019 01:06:17] "POST /simple_upload/ HTTP/1.1" 500 77172
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 37, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[24/Feb/2019 01:11:21] "POST /simple_upload/ HTTP/1.1" 500 77172
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 37, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[24/Feb/2019 01:14:24] "POST /simple_upload/ HTTP/1.1" 500 77172
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 23, 2019 - 23:01:58
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[24/Feb/2019 01:16:03] "POST /simple_upload/ HTTP/1.1" 200 381
+[24/Feb/2019 01:16:15] "POST /simple_upload/ HTTP/1.1" 200 381
+[24/Feb/2019 01:17:48] "POST /simple_upload/ HTTP/1.1" 200 381
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 24, 2019 - 01:15:59
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/flame':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 736 kb/s
+    Stream #0:0: Video: indeo4 (IV41 / 0x31345649), yuv410p, 256x240, 731 kb/s, 35 fps, 35 tbr, 35 tbn, 35 tbc
+[libx264 @ 0x202e460] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x202e460] profile High, level 1.3
+[libx264 @ 0x202e460] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/flame.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv420p, 256x208, q=-1--1, 35 fps, 17920 tbn, 35 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (indeo4 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=  110 fps=0.0 q=-1.0 Lsize=      90kB time=00:00:03.08 bitrate= 237.6kbits/s    
+video:87kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.342747%
+[libx264 @ 0x202e460] frame I:1     Avg QP:23.28  size:  1205
+[libx264 @ 0x202e460] frame P:52    Avg QP:23.81  size:  1211
+[libx264 @ 0x202e460] frame B:57    Avg QP:27.20  size:   433
+[libx264 @ 0x202e460] consecutive B-frames: 13.6% 41.8% 30.0% 14.5%
+[libx264 @ 0x202e460] mb I  I16..4:  6.2% 93.8%  0.0%
+[libx264 @ 0x202e460] mb P  I16..4:  3.2% 40.8%  1.4%  P16..4: 13.3%  7.3%  5.9%  0.0%  0.0%    skip:28.1%
+[libx264 @ 0x202e460] mb B  I16..4:  1.1%  6.4%  0.3%  B16..8: 23.5%  5.9%  1.3%  direct: 2.6%  skip:58.9%  L0:47.8% L1:39.8% BI:12.4%
+[libx264 @ 0x202e460] 8x8 transform intra:89.0% inter:73.1%
+[libx264 @ 0x202e460] coded y,uvDC,uvAC intra: 67.2% 0.0% 0.0% inter: 12.3% 0.0% 0.0%
+[libx264 @ 0x202e460] i16 v,h,dc,p: 33% 41% 24%  2%
+[libx264 @ 0x202e460] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 29% 47%  2%  1%  1%  1%  1%  2%
+[libx264 @ 0x202e460] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 22% 21%  4%  6%  6%  5%  6%  5%
+[libx264 @ 0x202e460] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x202e460] Weighted P-Frames: Y:15.4% UV:0.0%
+[libx264 @ 0x202e460] ref P L0: 52.6% 13.1% 20.1% 11.7%  2.5%
+[libx264 @ 0x202e460] ref B L0: 72.9% 21.4%  5.8%
+[libx264 @ 0x202e460] ref B L1: 94.8%  5.2%
+[libx264 @ 0x202e460] kb/s:226.20
+[24/Feb/2019 01:19:55] "POST /simple_upload/ HTTP/1.1" 200 554
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/flame.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 233 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 256x208, 227 kb/s, 35 fps, 35 tbr, 17920 tbn, 70 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x108a800] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/flame.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj420p(pc), 256x208, q=2-31, 200 kb/s, 35 fps, 35 tbn, 35 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=1.9 Lsize=N/A time=00:00:00.02 bitrate=N/A    
+video:3kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[24/Feb/2019 01:19:59] "GET /media/flame.mp4 HTTP/1.1" 200 91651
+[24/Feb/2019 01:20:00] "GET /media/flame.mp4 HTTP/1.1" 200 91651
+[24/Feb/2019 01:20:05] "GET /media/flame.jpg HTTP/1.1" 200 3554
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 42, in simple_upload
+    filename = fs.save(os.path.splitext(myfile.name.replace(" ", ""))[0], myfile)
+UnboundLocalError: local variable 'myfile' referenced before assignment
+[24/Feb/2019 01:21:43] "POST /simple_upload/ HTTP/1.1" 500 69565
+[24/Feb/2019 01:46:00] "GET /simple_upload/ HTTP/1.1" 200 623
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/flame_R2QEIF8':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 736 kb/s
+    Stream #0:0: Video: indeo4 (IV41 / 0x31345649), yuv410p, 256x240, 731 kb/s, 35 fps, 35 tbr, 35 tbn, 35 tbc
+[libx264 @ 0x2599480] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x2599480] profile High, level 1.3
+[libx264 @ 0x2599480] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/flame_R2QEIF8.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv420p, 256x208, q=-1--1, 35 fps, 17920 tbn, 35 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (indeo4 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=  110 fps=0.0 q=-1.0 Lsize=      90kB time=00:00:03.08 bitrate= 237.6kbits/s    
+video:87kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.342747%
+[libx264 @ 0x2599480] frame I:1     Avg QP:23.28  size:  1205
+[libx264 @ 0x2599480] frame P:52    Avg QP:23.81  size:  1211
+[libx264 @ 0x2599480] frame B:57    Avg QP:27.20  size:   433
+[libx264 @ 0x2599480] consecutive B-frames: 13.6% 41.8% 30.0% 14.5%
+[libx264 @ 0x2599480] mb I  I16..4:  6.2% 93.8%  0.0%
+[libx264 @ 0x2599480] mb P  I16..4:  3.2% 40.8%  1.4%  P16..4: 13.3%  7.3%  5.9%  0.0%  0.0%    skip:28.1%
+[libx264 @ 0x2599480] mb B  I16..4:  1.1%  6.4%  0.3%  B16..8: 23.5%  5.9%  1.3%  direct: 2.6%  skip:58.9%  L0:47.8% L1:39.8% BI:12.4%
+[libx264 @ 0x2599480] 8x8 transform intra:89.0% inter:73.1%
+[libx264 @ 0x2599480] coded y,uvDC,uvAC intra: 67.2% 0.0% 0.0% inter: 12.3% 0.0% 0.0%
+[libx264 @ 0x2599480] i16 v,h,dc,p: 33% 41% 24%  2%
+[libx264 @ 0x2599480] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 29% 47%  2%  1%  1%  1%  1%  2%
+[libx264 @ 0x2599480] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 22% 21%  4%  6%  6%  5%  6%  5%
+[libx264 @ 0x2599480] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x2599480] Weighted P-Frames: Y:15.4% UV:0.0%
+[libx264 @ 0x2599480] ref P L0: 52.6% 13.1% 20.1% 11.7%  2.5%
+[libx264 @ 0x2599480] ref B L0: 72.9% 21.4%  5.8%
+[libx264 @ 0x2599480] ref B L1: 94.8%  5.2%
+[libx264 @ 0x2599480] kb/s:226.20
+[24/Feb/2019 01:46:28] "POST /simple_upload/ HTTP/1.1" 200 828
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/flame_R2QEIF8.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 233 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 256x208, 227 kb/s, 35 fps, 35 tbr, 17920 tbn, 70 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x25ada80] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/flame_R2QEIF8.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj420p(pc), 256x208, q=2-31, 200 kb/s, 35 fps, 35 tbn, 35 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=1.9 Lsize=N/A time=00:00:00.02 bitrate=N/A    
+video:3kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 37, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[24/Feb/2019 01:47:09] "POST /simple_upload/ HTTP/1.1" 500 77053
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, png_pipe, from 'media/oculos':
+  Duration: N/A, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1624x468 [SAR 5906:5906 DAR 406:117], 25 tbr, 25 tbn, 25 tbc
+No pixel format specified, yuv444p for H.264 encoding chosen.
+Use -pix_fmt yuv420p for compatibility with outdated media players.
+[libx264 @ 0x14ca3a0] using SAR=1/1
+[libx264 @ 0x14ca3a0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x14ca3a0] profile High 4:4:4 Predictive, level 3.1, 4:4:4 8-bit
+[libx264 @ 0x14ca3a0] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/oculos.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv444p, 1624x407 [SAR 1:1 DAR 1624:407], q=-1--1, 25 fps, 12800 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=28.0 Lsize=      13kB time=00:00:00.04 bitrate=2593.6kbits/s    
+video:12kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 6.600904%
+[libx264 @ 0x14ca3a0] frame I:1     Avg QP:20.67  size: 11477
+[libx264 @ 0x14ca3a0] mb I  I16..4: 22.2% 62.1% 15.7%
+[libx264 @ 0x14ca3a0] 8x8 transform intra:62.1%
+[libx264 @ 0x14ca3a0] coded y,u,v intra: 8.7% 3.9% 4.0%
+[libx264 @ 0x14ca3a0] i16 v,h,dc,p: 86% 11%  2%  0%
+[libx264 @ 0x14ca3a0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 50%  1% 49%  0%  0%  0%  0%  0%  0%
+[libx264 @ 0x14ca3a0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 50% 22% 12%  3%  3%  3%  3%  3%  3%
+[libx264 @ 0x14ca3a0] kb/s:2295.40
+[24/Feb/2019 01:47:14] "POST /simple_upload/ HTTP/1.1" 200 800
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/oculos.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 2593 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 1624x407 [SAR 1:1 DAR 1624:407], 2433 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x1ed3ea0] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/oculos.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj444p(pc), 1624x407 [SAR 1:1 DAR 1624:407], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=0.0 Lsize=N/A time=00:00:00.00 bitrate=N/A    
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Output file is empty, nothing was encoded (check -ss / -t / -frames parameters if used)
+[24/Feb/2019 01:47:19] "GET /media/oculos.mp4 HTTP/1.1" 200 12968
+[24/Feb/2019 01:47:20] "GET /media/oculos.mp4 HTTP/1.1" 200 12968
+Not Found: /media/oculos.jpg
+[24/Feb/2019 01:47:29] "GET /media/oculos.jpg HTTP/1.1" 404 1794
+----------------------------------------
+Exception happened during processing of request from ('92.53.65.165', 60000)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 651, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 721, in __init__
+    self.handle()
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Feb/2019 03:10:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[24/Feb/2019 03:10:24] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'wo_server:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[24/Feb/2019 05:25:52] "GET / HTTP/1.0" 400 62640
+Invalid HTTP_HOST header: 'wo_server:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[24/Feb/2019 06:57:49] "GET / HTTP/1.0" 400 62641
+Invalid HTTP_HOST header: '185.135.8.139:8000'. You may need to add '185.135.8.139' to ALLOWED_HOSTS.
+Bad Request: /
+[24/Feb/2019 10:48:40] "GET / HTTP/1.1" 400 63199
+[24/Feb/2019 12:24:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[24/Feb/2019 12:24:59] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Feb/2019 03:10:13] code 400, message Bad request syntax ('\x04\x01\x00\x19\x00\x00\x00\x01test\x00smtp.aol.com\x00')
+[25/Feb/2019 03:10:13] "    test smtp.aol.com " 400 -
+Invalid HTTP_HOST header: '185.135.8.139:8000'. You may need to add '185.135.8.139' to ALLOWED_HOSTS.
+Bad Request: /
+[25/Feb/2019 05:35:41] "GET / HTTP/1.1" 400 63062
+[25/Feb/2019 06:08:28] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01')
+[25/Feb/2019 06:08:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Feb/2019 06:14:50] code 400, message Bad HTTP/0.9 request type ('RFB')
+[25/Feb/2019 06:14:50] "RFB 003.003" 400 -
+[25/Feb/2019 06:58:06] code 400, message Bad HTTP/0.9 request type ('RFB')
+[25/Feb/2019 06:58:06] "RFB 003.003" 400 -
+[25/Feb/2019 16:28:49] "GET /simple_upload HTTP/1.1" 301 0
+[25/Feb/2019 16:28:49] "GET /simple_upload/ HTTP/1.1" 200 623
+Not Found: /favicon.ico
+[25/Feb/2019 16:28:50] "GET /favicon.ico HTTP/1.1" 404 2301
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 42, in simple_upload
+    filename = fs.save(os.path.splitext(myfile.name.replace(" ", ""))[0], myfile)
+UnboundLocalError: local variable 'myfile' referenced before assignment
+[25/Feb/2019 16:30:05] "POST /simple_upload/ HTTP/1.1" 500 69503
+[25/Feb/2019 16:33:50] "GET /simple_upload/ HTTP/1.1" 200 623
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 42, in simple_upload
+    filename = fs.save(os.path.splitext(myfile.name.replace(" ", ""))[0], myfile)
+UnboundLocalError: local variable 'myfile' referenced before assignment
+[25/Feb/2019 16:34:57] "POST /simple_upload/ HTTP/1.1" 500 69503
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 24, 2019 - 01:18:26
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[25/Feb/2019 16:39:11] "GET /simple_upload/ HTTP/1.1" 200 623
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 42, in simple_upload
+    filename = fs.save(os.path.splitext(myfile.name.replace(" ", ""))[0], myfile)
+UnboundLocalError: local variable 'myfile' referenced before assignment
+[25/Feb/2019 16:45:15] "POST /simple_upload/ HTTP/1.1" 500 69522
+Not Found: /
+[25/Feb/2019 16:50:48] "GET / HTTP/1.1" 404 2250
+Not Found: /media/movie_SH4XtZS.jpg
+[25/Feb/2019 16:50:50] "GET /media/movie_SH4XtZS.jpg HTTP/1.1" 404 1815
+Not Found: /media/movie_SH4XtZS.jpg
+[25/Feb/2019 16:51:21] "GET /media/movie_SH4XtZS.jpg HTTP/1.1" 404 1815
+Not Found: /media/Vao.avi
+[25/Feb/2019 16:51:25] "GET /media/Vao.avi HTTP/1.1" 404 1785
+Not Found: /favicon.ico
+[25/Feb/2019 16:51:27] "GET /favicon.ico HTTP/1.1" 404 2301
+Not Found: /media/VAo.avi
+[25/Feb/2019 16:51:32] "GET /media/VAo.avi HTTP/1.1" 404 1785
+Not Found: /favicon.ico
+[25/Feb/2019 16:51:33] "GET /favicon.ico HTTP/1.1" 404 2301
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 25, 2019 - 16:38:49
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 25, 2019 - 16:53:37
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+[25/Feb/2019 16:55:06] "GET /media/VAo_B.avi HTTP/1.1" 200 360448
+Invalid HTTP_HOST header: '185.135.8.139:8000'. You may need to add '185.135.8.139' to ALLOWED_HOSTS.
+Bad Request: /
+[25/Feb/2019 16:56:59] "GET / HTTP/1.1" 400 63106
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 25, 2019 - 16:54:50
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 25, 2019 - 16:58:09
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/movie':
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 288014 kb/s
+    Stream #0:0: Video: rawvideo, bgr24, 800x600, 293877 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc
+No pixel format specified, yuv444p for H.264 encoding chosen.
+Use -pix_fmt yuv420p for compatibility with outdated media players.
+[libx264 @ 0x1c27440] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x1c27440] profile High 4:4:4 Predictive, level 3.1, 4:4:4 8-bit
+[libx264 @ 0x1c27440] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/movie.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv444p, 800x522, q=-1--1, 25 fps, 12800 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=   50 fps=0.0 q=-1.0 Lsize=     542kB time=00:00:01.92 bitrate=2313.1kbits/s    
+video:541kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.259519%
+[libx264 @ 0x1c27440] frame I:1     Avg QP:21.73  size: 19591
+[libx264 @ 0x1c27440] frame P:25    Avg QP:24.80  size: 11502
+[libx264 @ 0x1c27440] frame B:24    Avg QP:28.27  size: 10245
+[libx264 @ 0x1c27440] consecutive B-frames:  4.0% 96.0%  0.0%  0.0%
+[libx264 @ 0x1c27440] mb I  I16..4: 13.9% 71.5% 14.6%
+[libx264 @ 0x1c27440] mb P  I16..4:  0.5% 15.7%  4.8%  P16..4:  6.0%  6.1%  3.3%  0.0%  0.0%    skip:63.5%
+[libx264 @ 0x1c27440] mb B  I16..4:  0.0%  7.9%  3.4%  B16..8:  9.4%  8.2%  3.9%  direct: 3.0%  skip:64.2%  L0:48.0% L1:36.9% BI:15.1%
+[libx264 @ 0x1c27440] 8x8 transform intra:72.9% inter:72.3%
+[libx264 @ 0x1c27440] coded y,u,v intra: 83.8% 8.4% 7.9% inter: 17.8% 0.7% 0.7%
+[libx264 @ 0x1c27440] i16 v,h,dc,p: 75% 18%  5%  2%
+[libx264 @ 0x1c27440] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9% 16% 14%  5% 10%  3% 22%  3% 17%
+[libx264 @ 0x1c27440] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  8% 19% 12%  4% 14%  4% 27%  3%  9%
+[libx264 @ 0x1c27440] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x1c27440] ref P L0: 46.3% 10.5% 25.0% 18.1%
+[libx264 @ 0x1c27440] ref B L0: 71.2% 28.8%
+[libx264 @ 0x1c27440] kb/s:2212.12
+[25/Feb/2019 17:10:53] "POST /simple_upload/ HTTP/1.1" 200 796
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/movie.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 2220 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 800x522, 2214 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x186f460] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/movie.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj444p(pc), 800x522, q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=6.3 Lsize=N/A time=00:00:00.08 bitrate=N/A    
+video:43kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[25/Feb/2019 17:11:34] "GET /media/movie.mp4 HTTP/1.1" 200 180224
+[25/Feb/2019 17:11:36] "GET /media/movie.mp4 HTTP/1.1" 200 555154
+[25/Feb/2019 17:16:11] "GET /media/movie.jpg HTTP/1.1" 200 44394
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin.
+Run 'python manage.py migrate' to apply them.
+February 25, 2019 - 16:58:33
+Django version 2.1.7, using settings 'videoconvProj.settings'
+Starting development server at http://cardiobemestar.com.br:8000/
+Quit the server with CONTROL-C.
+
+ Time 
+
+Traceback (most recent call last):
+  File "manage.py", line 15, in <module>
+    execute_from_command_line(sys.argv)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/management/base.py", line 316, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 60, in execute
+    super().execute(*args, **options)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/management/base.py", line 353, in execute
+    output = self.handle(*args, **options)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 67, in handle
+    if not settings.DEBUG and not settings.ALLOWED_HOSTS:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    self._setup(name)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/conf/__init__.py", line 44, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/conf/__init__.py", line 126, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[25/Feb/2019 19:39:43] "GET /simple_upload/ HTTP/1.1" 200 623
+Not Found: /favicon.ico
+[25/Feb/2019 19:39:44] "GET /favicon.ico HTTP/1.1" 404 2301
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/movie_fQJq22L':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 2220 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 800x522, 2214 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+No pixel format specified, yuv444p for H.264 encoding chosen.
+Use -pix_fmt yuv420p for compatibility with outdated media players.
+[libx264 @ 0xe52a80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0xe52a80] profile High 4:4:4 Predictive, level 3.0, 4:4:4 8-bit
+[libx264 @ 0xe52a80] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/movie_fQJq22L.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv444p, 800x454, q=-1--1, 25 fps, 12800 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=   50 fps=0.0 q=-1.0 Lsize=     479kB time=00:00:01.92 bitrate=2045.3kbits/s    
+video:478kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.293597%
+[libx264 @ 0xe52a80] frame I:1     Avg QP:22.77  size: 16725
+[libx264 @ 0xe52a80] frame P:25    Avg QP:23.86  size: 10279
+[libx264 @ 0xe52a80] frame B:24    Avg QP:27.77  size:  8961
+[libx264 @ 0xe52a80] consecutive B-frames:  4.0% 96.0%  0.0%  0.0%
+[libx264 @ 0xe52a80] mb I  I16..4:  1.1% 85.2% 13.7%
+[libx264 @ 0xe52a80] mb P  I16..4:  0.7% 18.3%  4.5%  P16..4:  8.1%  6.9%  3.2%  0.0%  0.0%    skip:58.4%
+[libx264 @ 0xe52a80] mb B  I16..4:  0.0%  8.3%  2.8%  B16..8: 10.1% 10.6%  4.2%  direct: 3.0%  skip:61.0%  L0:47.5% L1:37.7% BI:14.8%
+[libx264 @ 0xe52a80] 8x8 transform intra:77.7% inter:74.9%
+[libx264 @ 0xe52a80] coded y,u,v intra: 83.9% 8.8% 8.4% inter: 19.5% 0.9% 0.9%
+[libx264 @ 0xe52a80] i16 v,h,dc,p: 80%  9%  4%  7%
+[libx264 @ 0xe52a80] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 10% 17% 13%  5% 10%  3% 20%  4% 16%
+[libx264 @ 0xe52a80] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 10% 20% 12%  4% 14%  5% 24%  3%  8%
+[libx264 @ 0xe52a80] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0xe52a80] ref P L0: 48.0%  9.7% 24.7% 17.7%
+[libx264 @ 0xe52a80] ref B L0: 72.8% 27.2%
+[libx264 @ 0xe52a80] kb/s:1955.04
+[25/Feb/2019 19:40:41] "POST /simple_upload/ HTTP/1.1" 200 828
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/movie_fQJq22L.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 1963 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 800x454, 1957 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x1098020] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/movie_fQJq22L.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj444p(pc), 800x454, q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=6.0 Lsize=N/A time=00:00:00.08 bitrate=N/A    
+video:36kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[25/Feb/2019 19:40:48] "GET /media/movie_fQJq22L.mp4 HTTP/1.1" 200 180224
+[25/Feb/2019 19:40:51] "GET /media/movie_fQJq22L.mp4 HTTP/1.1" 200 490884
+[25/Feb/2019 19:41:02] "GET /media/movie_fQJq22L.mp4 HTTP/1.1" 200 490884
+[25/Feb/2019 19:41:19] "GET /simple_upload/ HTTP/1.1" 200 623
+[25/Feb/2019 19:41:54] "GET /simple_upload/ HTTP/1.1" 200 623
+[25/Feb/2019 19:42:45] "GET /simple_upload/ HTTP/1.1" 200 623
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 31, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[25/Feb/2019 19:42:46] "POST /simple_upload/ HTTP/1.1" 500 76998
+[25/Feb/2019 19:45:00] "GET /simple_upload/ HTTP/1.1" 200 623
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/movie_Yk37JMc':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 2220 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 800x522, 2214 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+No pixel format specified, yuv444p for H.264 encoding chosen.
+Use -pix_fmt yuv420p for compatibility with outdated media players.
+[libx264 @ 0x812a80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x812a80] profile High 4:4:4 Predictive, level 3.0, 4:4:4 8-bit
+[libx264 @ 0x812a80] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/movie_Yk37JMc.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv444p, 800x454, q=-1--1, 25 fps, 12800 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=   50 fps=0.0 q=-1.0 Lsize=     479kB time=00:00:01.92 bitrate=2045.3kbits/s    
+video:478kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.293597%
+[libx264 @ 0x812a80] frame I:1     Avg QP:22.77  size: 16725
+[libx264 @ 0x812a80] frame P:25    Avg QP:23.86  size: 10279
+[libx264 @ 0x812a80] frame B:24    Avg QP:27.77  size:  8961
+[libx264 @ 0x812a80] consecutive B-frames:  4.0% 96.0%  0.0%  0.0%
+[libx264 @ 0x812a80] mb I  I16..4:  1.1% 85.2% 13.7%
+[libx264 @ 0x812a80] mb P  I16..4:  0.7% 18.3%  4.5%  P16..4:  8.1%  6.9%  3.2%  0.0%  0.0%    skip:58.4%
+[libx264 @ 0x812a80] mb B  I16..4:  0.0%  8.3%  2.8%  B16..8: 10.1% 10.6%  4.2%  direct: 3.0%  skip:61.0%  L0:47.5% L1:37.7% BI:14.8%
+[libx264 @ 0x812a80] 8x8 transform intra:77.7% inter:74.9%
+[libx264 @ 0x812a80] coded y,u,v intra: 83.9% 8.8% 8.4% inter: 19.5% 0.9% 0.9%
+[libx264 @ 0x812a80] i16 v,h,dc,p: 80%  9%  4%  7%
+[libx264 @ 0x812a80] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 10% 17% 13%  5% 10%  3% 20%  4% 16%
+[libx264 @ 0x812a80] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 10% 20% 12%  4% 14%  5% 24%  3%  8%
+[libx264 @ 0x812a80] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x812a80] ref P L0: 48.0%  9.7% 24.7% 17.7%
+[libx264 @ 0x812a80] ref B L0: 72.8% 27.2%
+[libx264 @ 0x812a80] kb/s:1955.04
+[25/Feb/2019 19:45:22] "POST /simple_upload/ HTTP/1.1" 200 828
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/movie_Yk37JMc.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 1963 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 800x454, 1957 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x197a020] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/movie_Yk37JMc.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj444p(pc), 800x454, q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=6.0 Lsize=N/A time=00:00:00.08 bitrate=N/A    
+video:36kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 31, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[25/Feb/2019 19:45:26] "POST /simple_upload/ HTTP/1.1" 500 76998
+[25/Feb/2019 19:46:17] "GET /media/movie_Yk37JMc.mp4 HTTP/1.1" 200 180224
+[25/Feb/2019 19:46:28] "GET /media/movie_Yk37JMc.mp4 HTTP/1.1" 200 490884
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 31, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[25/Feb/2019 19:46:39] "POST /simple_upload/ HTTP/1.1" 500 76998
+[25/Feb/2019 19:47:01] "GET /simple_upload/ HTTP/1.1" 200 623
+[25/Feb/2019 19:49:02] "GET /simple_upload/ HTTP/1.1" 200 623
+Internal Server Error: /simple_upload/
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'myfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wercules/videoconv/videoconvApp/views.py", line 31, in simple_upload
+    if request.method == 'POST' and request.FILES['myfile']:
+  File "/home/wercules/.local/share/virtualenvs/videoconv-yYQT7wjN/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'myfile'
+[25/Feb/2019 19:49:11] "POST /simple_upload/ HTTP/1.1" 500 76998
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, avi, from 'media/movie_pz5aiFo':
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 288014 kb/s
+    Stream #0:0: Video: rawvideo, bgr24, 800x600, 293877 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc
+No pixel format specified, yuv444p for H.264 encoding chosen.
+Use -pix_fmt yuv420p for compatibility with outdated media players.
+[libx264 @ 0x24a84e0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+[libx264 @ 0x24a84e0] profile High 4:4:4 Predictive, level 3.1, 4:4:4 8-bit
+[libx264 @ 0x24a84e0] 264 - core 142 r2495 6a301b6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2014 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'media/movie_pz5aiFo.mp4':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) ([33][0][0][0] / 0x0021), yuv444p, 800x522, q=-1--1, 25 fps, 12800 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=   50 fps= 49 q=-1.0 Lsize=     542kB time=00:00:01.92 bitrate=2313.1kbits/s    
+video:541kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.259519%
+[libx264 @ 0x24a84e0] frame I:1     Avg QP:21.73  size: 19591
+[libx264 @ 0x24a84e0] frame P:25    Avg QP:24.80  size: 11502
+[libx264 @ 0x24a84e0] frame B:24    Avg QP:28.27  size: 10245
+[libx264 @ 0x24a84e0] consecutive B-frames:  4.0% 96.0%  0.0%  0.0%
+[libx264 @ 0x24a84e0] mb I  I16..4: 13.9% 71.5% 14.6%
+[libx264 @ 0x24a84e0] mb P  I16..4:  0.5% 15.7%  4.8%  P16..4:  6.0%  6.1%  3.3%  0.0%  0.0%    skip:63.5%
+[libx264 @ 0x24a84e0] mb B  I16..4:  0.0%  7.9%  3.4%  B16..8:  9.4%  8.2%  3.9%  direct: 3.0%  skip:64.2%  L0:48.0% L1:36.9% BI:15.1%
+[libx264 @ 0x24a84e0] 8x8 transform intra:72.9% inter:72.3%
+[libx264 @ 0x24a84e0] coded y,u,v intra: 83.8% 8.4% 7.9% inter: 17.8% 0.7% 0.7%
+[libx264 @ 0x24a84e0] i16 v,h,dc,p: 75% 18%  5%  2%
+[libx264 @ 0x24a84e0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9% 16% 14%  5% 10%  3% 22%  3% 17%
+[libx264 @ 0x24a84e0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  8% 19% 12%  4% 14%  4% 27%  3%  9%
+[libx264 @ 0x24a84e0] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x24a84e0] ref P L0: 46.3% 10.5% 25.0% 18.1%
+[libx264 @ 0x24a84e0] ref B L0: 71.2% 28.8%
+[libx264 @ 0x24a84e0] kb/s:2212.12
+[25/Feb/2019 19:55:39] "POST /simple_upload/ HTTP/1.1" 200 828
+ffmpeg version 2.8.15 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-28)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' --extra-ldflags='-Wl,-z,relro ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-gnutls --enable-ladspa --enable-libass --enable-libcdio --enable-libdc1394 --disable-indev=jack --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-openal --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libx264 --enable-libx265 --enable-libxvid --enable-x11grab --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-runtime-cpudetect
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'media/movie_pz5aiFo.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 2220 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv444p, 800x522, 2214 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+[swscaler @ 0x135c4c0] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'media/movie_pz5aiFo.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(und): Video: mjpeg, yuvj444p(pc), 800x522, q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc56.60.100 mjpeg
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=6.3 Lsize=N/A time=00:00:00.08 bitrate=N/A    
+video:43kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Invalid HTTP_HOST header: 'www.rodrigocordovil.com.br'. You may need to add 'www.rodrigocordovil.com.br' to ALLOWED_HOSTS.
+Bad Request: /
+[25/Feb/2019 23:59:29] "GET / HTTP/1.1" 400 63253

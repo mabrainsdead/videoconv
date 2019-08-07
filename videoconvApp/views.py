@@ -1,0 +1,72 @@
+from django.shortcuts import render
+from django.conf import settings
+from django.core.files.storage import FileSystemStorage
+from django.http import HttpResponse 
+import os, time
+
+
+
+
+def simple_upload(request):
+	
+			
+	def convert_avi_to_mp4(avi_file_path, output_name):
+		'''converte videos input para mp4'''
+		
+		os.popen("ffmpeg -i '{input}' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k  -bf 0 -strict experimental -f mp4 '{output}.mp4'".format(input = avi_file_path, output = output_name))
+		return True
+
+	def create_thumbnail(avi_file_path, output_name):
+		'''cria thumbnails '''		
+		os.popen("ffmpeg  -i '{input}'  -ss 00:00:0.050 -vframes 1 '{output}'.jpg".format(input = avi_file_path,output = output_name))          
+		return True  
+		
+	def convert_avi_to_mp4_anonimous(file_path, output_name):
+		'''retira o header do video '''
+		os.popen("ffmpeg -i '{input}' -filter:v 'crop=in_w:in_h/1.15:0:55' -c:a copy '{output}'.mp4".format(input=file_path, output = output_name))
+		return True
+	
+			
+	
+	if request.method == 'POST' and request.FILES['myfile']:
+		anonimize = request.POST.get('anonimize', False)
+		
+		if anonimize:
+			myfile = request.FILES['myfile']
+			fs = FileSystemStorage()
+			filename = fs.save(os.path.splitext(myfile.name.replace(" ", ""))[0], myfile)
+			convert_avi_to_mp4_anonimous("media/"+filename, "media/"+filename)
+			print("\n Time \n")
+			time.sleep(5)
+			create_thumbnail("media/"+filename+".mp4", "media/"+filename)
+			
+			
+			return render(request, 'simple_upload.html', {
+				'video_name': filename +".mp4",
+				'video_path': fs.url(filename+".mp4"),
+				'thumbnail_name': filename +".jpg",
+				'thumbnail_path': fs.url(filename+".jpg"),
+				
+			})
+		else:
+		
+			myfile = request.FILES['myfile']
+			fs = FileSystemStorage()
+			filename = fs.save(os.path.splitext(myfile.name.replace(" ", ""))[0], myfile)
+			convert_avi_to_mp4_anonimous("media/"+filename, "media/"+filename)
+			time.sleep(5)
+			create_thumbnail("media/"+filename+".mp4", "media/"+filename)
+		
+			return render(request, 'simple_upload.html', {
+				'video_name': filename +".mp4",
+				'video_path': fs.url(filename+".mp4"),
+				'thumbnail_name': filename +".jpg",
+				'thumbnail_path': fs.url(filename+".jpg"),
+				
+			})		
+	
+	else:
+		return render(request, 'simple_upload.html')
+	
+	
+	
